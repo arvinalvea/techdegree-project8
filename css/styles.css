@@ -113,3 +113,19 @@ h1 {
 .card {
     display: flex;
 }
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+
+@media(max-width: 1185px) {
+    .card {
+        flex-basis: 47.5%;
+    }
+}
+
+@media(max-width: 641px) {
+    .card {
+        flex-basis: 100%;
+    }
+}
