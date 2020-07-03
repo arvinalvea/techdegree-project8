@@ -42,7 +42,6 @@ h1 {
 }
 
 .grid-container {
-    /* background: teal; */
     width: 90%;
     margin: 0 auto;
     justify-content: space-between;
@@ -101,9 +100,23 @@ h1 {
     color: #8F8F8F;
 }
 
+#user-search {
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 2.5em;
+    width: 35%;
+    height: 30px
+}
+
 /* ============================================= */
 /*              Flexbox Containers               */
 /* ============================================= */
+
+header {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
 
 .grid-container {
     display: flex;
